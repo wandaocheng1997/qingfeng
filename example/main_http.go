@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	qingfeng "github.com/wdcbot/qingfeng"
+	qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 // @title 标准库 HTTP 示例

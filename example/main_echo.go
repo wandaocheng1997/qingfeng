@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	qingfeng "github.com/wdcbot/qingfeng"
+	qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 // @title Echo 框架示例

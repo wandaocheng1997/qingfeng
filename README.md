@@ -6,7 +6,7 @@
 
 > 为 Go 开发者提供更好的 API 文档体验。
 
-[![GitHub](https://img.shields.io/badge/GitHub-wdcbot/qingfeng-blue?logo=github)](https://github.com/wdcbot/qingfeng)
+[![GitHub](https://img.shields.io/badge/GitHub-wandaocheng1997/qingfeng-blue?logo=github)](https://github.com/wandaocheng1997/qingfeng)
 [![Gitee](https://img.shields.io/badge/Gitee-镜像-red?logo=gitee)](https://gitee.com/xiaowan1997/qingfeng)
 
 ## 🔗 在线资源
@@ -52,7 +52,7 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 // @title 我的 API
@@ -85,7 +85,7 @@ func hello(c *gin.Context) {
 ```
 
 **就这么简单！** 用户只需要：
-1. `go get github.com/wdcbot/qingfeng@latest`
+1. `go get github.com/wandaocheng1997/qingfeng@latest`
 2. 写注释
 3. 启动服务
 
@@ -99,7 +99,7 @@ func hello(c *gin.Context) {
 
 1. 安装青峰Swag：
 ```bash
-go get github.com/wdcbot/qingfeng@latest
+go get github.com/wandaocheng1997/qingfeng@latest
 # 国内镜像: go get gitee.com/xiaowan1997/qingfeng
 ```
 
@@ -112,7 +112,7 @@ import ginSwagger "github.com/swaggo/gin-swagger"
 r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
 // 替换后 (青峰Swag) - 方式1：使用内置生成器（推荐）
-import qingfeng "github.com/wdcbot/qingfeng"
+import qingfeng "github.com/wandaocheng1997/qingfeng"
 r.GET("/doc/*any", qingfeng.Handler(qingfeng.Config{
     Title:        "我的 API",
     AutoGenerate: true, // 内置生成器，无需 swag CLI
@@ -144,7 +144,7 @@ go mod init myapi
 
 ```bash
 go get github.com/gin-gonic/gin
-go get github.com/wdcbot/qingfeng@latest
+go get github.com/wandaocheng1997/qingfeng@latest
 # 国内镜像: go get gitee.com/xiaowan1997/qingfeng@latest
 # 注意：v2.0.0 起无需安装 swag CLI！
 ```
@@ -156,7 +156,7 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 // @title 我的 API
@@ -260,7 +260,7 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 func main() {
@@ -291,7 +291,7 @@ package main
 
 import (
     "net/http"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 func main() {
@@ -317,7 +317,7 @@ package main
 
 import (
     "github.com/labstack/echo/v4"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 func main() {
@@ -346,7 +346,7 @@ package main
 import (
     "github.com/gofiber/fiber/v2"
     "github.com/gofiber/fiber/v2/middleware/adaptor"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 func main() {
@@ -375,7 +375,7 @@ package main
 import (
     "net/http"
     "github.com/go-chi/chi/v5"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 func main() {
@@ -403,7 +403,7 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 func main() {
@@ -480,7 +480,7 @@ package main
 import (
     _"embed""embed"
     "github.com/gin-gonic/gin"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 //go:embed docs/swagger.json
@@ -642,7 +642,7 @@ swag init
 import (
     "github.com/gofiber/fiber/v2"
     "github.com/gofiber/fiber/v2/middleware/adaptor"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 func main() {
@@ -663,7 +663,7 @@ func main() {
 ```go
 import (
     "github.com/labstack/echo/v4"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 func main() {
@@ -684,7 +684,7 @@ func main() {
 ```go
 import (
     "github.com/go-chi/chi/v5"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 func main() {
@@ -705,7 +705,7 @@ func main() {
 ```go
 import (
     "net/http"
-    qingfeng "github.com/wdcbot/qingfeng"
+    qingfeng "github.com/wandaocheng1997/qingfeng"
 )
 
 func main() {
