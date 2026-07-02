@@ -6,6 +6,22 @@
 
 > 为 Go 开发者提供更好的 API 文档体验。
 
+> **📢 仓库迁移通知**
+>
+> 本项目已从 `github.com/wdcbot/qingfeng` 迁移至 `github.com/wandaocheng1997/qingfeng`。
+>
+> **新用户**请直接使用新地址安装：
+> ```bash
+> go get github.com/wandaocheng1997/qingfeng@latest
+> ```
+>
+> **旧用户**请按以下步骤迁移：
+> ```bash
+> # 1. 更新 import 路径（将 wdcbot 改为 wandaocheng1997）
+> # 2. 执行 go mod tidy
+> go mod tidy
+> ```
+
 [![GitHub](https://img.shields.io/badge/GitHub-wandaocheng1997/qingfeng-blue?logo=github)](https://github.com/wandaocheng1997/qingfeng)
 [![Gitee](https://img.shields.io/badge/Gitee-镜像-red?logo=gitee)](https://gitee.com/xiaowan1997/qingfeng)
 

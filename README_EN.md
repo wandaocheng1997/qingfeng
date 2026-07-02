@@ -6,6 +6,22 @@ English | [中文](./README.md)
 
 > Better API documentation experience for Go developers.
 
+> **📢 Repository Migration Notice**
+>
+> This project has been migrated from `github.com/wdcbot/qingfeng` to `github.com/wandaocheng1997/qingfeng`.
+>
+> **New users** — install directly:
+> ```bash
+> go get github.com/wandaocheng1997/qingfeng@latest
+> ```
+>
+> **Existing users** — please migrate:
+> ```bash
+> # 1. Update import paths (change wdcbot to wandaocheng1997)
+> # 2. Run go mod tidy
+> go mod tidy
+> ```
+
 [![GitHub](https://img.shields.io/badge/GitHub-wandaocheng1997/qingfeng-blue?logo=github)](https://github.com/wandaocheng1997/qingfeng)
 [![Gitee](https://img.shields.io/badge/Gitee-Mirror-red?logo=gitee)](https://gitee.com/xiaowan1997/qingfeng)
 
